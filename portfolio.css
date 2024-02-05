@@ -1,0 +1,69 @@
+body{
+    background-color:rgba(0, 0, 0, 0.984);
+    background:url('./background-portfolio.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    font-family:initial;
+    letter-spacing: 2px;
+    font-style: italic;
+} 
+.h{
+    color:white;
+    text-align:center;
+    padding-top:2%;
+    font-size: 14pt;
+    
+}
+.h:hover{
+    color:rgb(255, 5, 5);}
+.profile{
+        border-radius:50%;
+        transform:scale(1.2,1.2) ;
+        transition:4s;
+        padding-left: 2px; 
+    }
+.btn{
+    float:right;
+}
+ .card:hover{
+    transform:scale(1.1,1.1) ;
+    transition:3s;
+    cursor:pointer;
+}         
+.card{
+    height:200px; 
+    width:200px;
+    box-shadow:3px 3px 3px rgb(200, 193, 193);
+}
+.edu{
+    height:80vh;
+}
+.sk{
+    height:75vh;
+}
+.certi{
+    width:1300px;
+    height:500px;
+    margin-top:3%;
+    margin-left:8%;
+}
+.abt_txt{
+    margin-top: 15%;
+}
+.intro{
+    letter-spacing:2px;
+    text-shadow: rgb(255, 255, 51);
+    font-size:14pt;         
+}
+.copy{
+    margin-top: 16%;
+}
+.in_box{
+  margin: 5px;
+  margin-left: 10px;
+}
+.name:hover{
+    color: rgb(255, 5, 5);
+}
